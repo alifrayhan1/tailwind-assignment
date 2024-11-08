@@ -1,18 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark" id="main">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CREATIVES FOR YOU</title>
     <link rel="stylesheet" href="css/tailwind.css" />
   </head>
-  <body>
-    <header class="relative">
+  <body class="bg-white dark:bg-gray-900">
+    <header class="relative dark:text-white">
       <nav class="flex justify-between items-center">
         <img class="w-24 h-12" src="image/logo.png" alt="brandlogo" />
         <ul
           id="navlink"
-          class="absolute sm:relative w-full left-0 top-16 bg-slate-400 text-center sm:block hidden sm:bg-white sm:flex sm:justify-center sm:top-0 gap-5"
+          class="absolute sm:relative w-full left-0 top-16 bg-slate-400 text-center sm:block hidden sm:bg-white dark:bg-gray-900 sm:flex sm:justify-center sm:top-0 gap-5"
         >
           <li class="my-2"><a href="#">Home</a></li>
           <li class="my-2"><a href="#">About Us</a></li>
@@ -29,7 +29,7 @@
             src="image/navbar.png"
             alt="navbaricom"
           />
-          <img class="w-10 h-10" src="image/moonicon.png" alt="moonicon" />
+          <img id="dark" class="w-10 h-10" src="image/moonicon.png" alt="moonicon" />
         </div>
       </nav>
     </header>
@@ -87,7 +87,7 @@
           </button>
           <button
             type="button"
-            class="bg-white border rounded px-1 sm:px-2 sm:py-1"
+            class="bg-white dark:bg-gray-900 border rounded px-1 sm:px-2 sm:py-1"
           >
             Learn more
           </button>
